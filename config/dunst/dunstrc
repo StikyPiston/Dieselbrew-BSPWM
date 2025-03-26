@@ -1,0 +1,45 @@
+[global]
+	monitor = 0
+	follow = mouse
+	geometry = "300x80-10+30"
+	indicate_hidden = yes
+	shrink = no
+	transparency = 10
+	frame_width = 2
+	separator_height = 2
+	padding = 10
+	horizontal_padding = 15
+	corner_radius = 8
+	font = IBM Plex Sans Medium 10
+	line_height = 3
+	markup = full
+	format = "<b>%s</b>\n%b"
+	alignment = left
+	word_wrap = yes
+	show_age_threshold = 30
+	ignore_newline = no
+	hide_on_mouse_move = no
+	progress_bar = true
+	progress_bar_height = 4
+	progress_bar_frame_width = 0
+	progress_bar_corner_radius = 2
+	startup_notification = false
+	browser = xdg-open
+
+[urgency_low]
+	background = "#161616"
+	foreground = "#ffffff"
+	frame_color = "#2a2a2a"
+	timeout = 6
+
+[urgency_normal]
+	background = "#1b1e28"
+	foreground = "#ffffff"
+	frame_color = "#89b4fa"
+	timeout = 8
+
+[urgency_critical]
+	background = "#220000"
+	foreground = "#ff5555"
+	frame_color = "ff8888"
+	timeout = 10

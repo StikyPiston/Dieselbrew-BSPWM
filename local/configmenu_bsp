@@ -1,0 +1,11 @@
+#!/bin/sh
+
+option=$(printf "Bspwmrc\nKeybinds\nPolybar\nQutebrowser" | rofi -dmenu -i)
+
+case "$option" in
+	"Bspwmrc") kitty bash -c "micro ~/.config/bspwm/bspwmrc" ;;
+	"Keybinds") kitty bash -c "micro ~/.config/sxhkd/sxhkdrc" ;;
+	"Polybar") kitty bash -c "micro ~/.config/polybar/config.ini" ;;
+	"Qutebrowser") kitty bash -c "micro ~/.config/qutebrowser/config.py";;
+	*) exit 1 ;;
+esac

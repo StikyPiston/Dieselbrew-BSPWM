@@ -1,0 +1,36 @@
+{
+	"name": "Dieselbrew-BSPWM",
+	"version": "1.1",
+	"author": "StikyPiston",
+	"dependencies": {
+		"apt": ["bspwm", "nala", "sxhkd", "plank", "nitrogen", "micro", "polybar", "lxpolkit", "mpd", "ncmpcpp", "tmux", "kitty", "dunst", "picom", "rofi", "neofetch", "cbonsai"]
+	},
+	"files": [
+		{ "src": "config/bspwm/bspwmrc", "dest": "~/.config/bspwm/bspwmrc" },
+		{ "src": "config/kitty/kitty.conf", "dest": "~/.config/kitty/kitty.conf" },
+		{ "src": "config/kitty/current-theme.conf", "dest": "~/.config/kitty/current-theme.conf" },
+		{ "src": "config/micro/settings.json", "dest": "~/.config/micro/settings.json" },
+		{ "src": "config/micro/colorschemes/oxocarbon-dark.micro", "dest": "~/.config/micro/colorschemes/oxocarbon-dark.micro" },
+		{ "src": "config/neofetch/config.conf", "dest": "~/.config/neofetch/config.conf" },
+		{ "src": "config/polybar/config.ini", "dest": "~/.config/polybar/config.ini" },
+		{ "src": "config/qutebrowser/quickmarks", "dest": "~/.config/qutebrowser/quickmarks" },
+		{ "src": "config/qutebrowser/config.py", "dest": "~/.config/qutebrowser/config.py" },
+		{ "src": "config/qutebrowser/catppuccin/setup.py", "dest": "~/.config/qutebrowser/catppuccin/setup.py" },
+		{ "src": "config/qutebrowser/catppuccin/README.md", "dest": "~/.config/qutebrowser/README.md" },
+		{ "src": "config/qutebrowser/catppuccin/LICENSE", "dest": "~/.config/qutebrowser/catppuccin/LICENSE" },
+		{ "src": "config/qutebrowser/catppuccin/__init__.py", "dest": "~/.config/qutebrowser/catppuccin/__init__.py" },
+		{ "src": "config/rofi/config.rasi", "dest": "~/.config/rofi/config.rasi" },
+		{ "src": "config/sxhkd/sxhkdrc", "dest": "~/.config/sxhkd/sxhkdrc" },
+		{ "src": "config/picom.conf", "dest": "~/.config/picom.conf" },
+		{ "src": "config/dunst/dunstrc", "dest": "~/.config/dunst/dunstrc" }
+		{ "src": "bin/color", "dest": "~/.local/bin/color" },
+		{ "src": "bin/configmenu_bsp", "dest": "~/.local/bin/configmenu_bsp" },
+		{ "src": "bin/gladosay", "dest": "~/.local/bin/gladosay" },
+		{ "src": "bin/glados_quotes.txt", "dest": "~/.local/bin/glados_quotes.txt" },
+		{ "src": "bin/powermenu_bsp", "dest": "~/.local/bin/powermenu_bsp" },
+		{ "src": "bin/stikyfetch", "dest": "~/.local/bin/stikyfetch" },
+		{ "src": "home/mpd.conf", "dest": "~/.mpd/mpd.conf" },
+		{ "src": "home/tmux.conf", "dest": "~/.tmux.conf" },
+		{ "src": "home/FINAL-SETUP.md", "dest": "~/FINAL-SETUP.md" }		
+	]
+}

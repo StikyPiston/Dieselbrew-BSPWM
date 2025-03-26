@@ -1,0 +1,64 @@
+configuration {
+	display-drun: "Launcher: ";
+	display-window: "Tasks: ";
+	drun-display-format: "{icon} {name}";
+	show-icons: true;
+	modi: "window,run,drun";
+}
+
+@theme "/dev/null"
+
+* {
+	bg: #16161666;
+	bg-alt: #26262666;
+
+	fg: #FFFFFFFF;
+	fg-alt: #393939;
+
+	background-color: @bg;
+
+	border: 0;
+	margin: 0;
+	padding: 1;
+	spacing: 0.5;
+}
+
+window {
+	width: 45%;
+}
+
+element {
+	padding: 10;
+	text-color: @fg-alt;
+}
+
+element selected {
+	text-color: @fg;
+}
+
+element-text {
+	background-color: inherit;
+	text-color: inherit;
+	vertical-align: 0.5;
+}
+
+element-icon {
+	size: 20;
+}
+
+entry {
+	background-color: @bg-alt;
+	padding: 12;
+	text-color: @fg;
+}
+
+inputbar {
+	children: [prompt, entry];
+}
+
+listview {
+	background-color: @bg;
+	columns: 2;
+	lines: 7;
+}
+

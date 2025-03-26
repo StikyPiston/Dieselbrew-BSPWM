@@ -1,0 +1,13 @@
+{
+    "autosu": true,
+    "colorscheme": "oxocarbon-dark",
+    "eofnewline": false,
+    "fastdirty": true,
+    "ignorecase": false,
+    "mkparents": true,
+    "paste": true,
+    "pluginchannels": [
+        "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json"
+    ],
+    "pluginrepos": []
+}
