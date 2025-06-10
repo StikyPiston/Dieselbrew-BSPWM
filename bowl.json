@@ -22,7 +22,7 @@
 		{ "src": "config/rofi/config.rasi", "dest": "~/.config/rofi/config.rasi" },
 		{ "src": "config/sxhkd/sxhkdrc", "dest": "~/.config/sxhkd/sxhkdrc" },
 		{ "src": "config/picom.conf", "dest": "~/.config/picom.conf" },
-		{ "src": "config/dunst/dunstrc", "dest": "~/.config/dunst/dunstrc" }
+		{ "src": "config/dunst/dunstrc", "dest": "~/.config/dunst/dunstrc" },
 		{ "src": "bin/color", "dest": "~/.local/bin/color" },
 		{ "src": "bin/configmenu_bsp", "dest": "~/.local/bin/configmenu_bsp" },
 		{ "src": "bin/gladosay", "dest": "~/.local/bin/gladosay" },
